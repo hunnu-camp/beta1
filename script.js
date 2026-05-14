@@ -272,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // SCROLL REVEAL
   // ===================================================
   const revealTargets = document.querySelectorAll(
-    '.value-card, .dest-card, .trans-card, .guide-card, .blog-card, .dslide-card, .afeat, .stat'
+    '.value-card, .dest-card, .trans-card, .pricing-card, .guide-card, .blog-card, .dslide-card, .afeat, .stat'
   );
 
   revealTargets.forEach(el => el.classList.add('fade-in'));
